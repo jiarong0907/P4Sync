@@ -21,7 +21,7 @@ cd /vagrant # you will see the repo
 
 We use the following topology. S1 is the source switch; S2 is the normal TCP destination; S3 is the synchronization destination. We use h2 to simulate the traffic generator that sends out synchronization packets periodically. We use h3 and h6 to simulate the switch control plane.
 <p align="center">
-  <img src="https://github.com/angchen/SecureInternet/blob/master/code-spin20/release/topo.png" />
+  <img src="./topo.png" />
 </p>
 
 
