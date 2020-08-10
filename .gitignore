@@ -1,0 +1,4 @@
+*/.vagrant/*
+.vagrant/*
+*/.build/*
+.build/*

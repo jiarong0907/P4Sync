@@ -1,0 +1,6 @@
+table_add set_nhop_tab set_nhop 10.0.1.10 => 1
+table_add set_nhop_tab set_nhop 10.0.2.10 => 2
+table_add set_nhop_tab set_nhop 10.0.3.10 => 3
+table_add set_nhop_tab set_nhop 10.0.4.10 => 4
+table_add set_nhop_tab set_nhop 10.0.5.10 => 5
+table_add set_nhop_tab set_nhop 10.0.6.10 => 5

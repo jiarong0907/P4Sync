@@ -1,0 +1,37 @@
+{
+  "language": "p4-16",
+  "targets": {
+    "multiswitch": {
+      "auto-control-plane": true,
+      "cli": true,
+      "pcap_dump": true,
+      "bmv2_log": true,
+      "links": [["h1", "s1", "1ms" ],["h2", "s1", "1ms" ],["h3", "s1", "1ms" ],["h4", "s2", "1ms" ],
+            ["h5", "s3", "1ms" ],["h6", "s3", "1ms" ],["s1", "s2", "1ms" ],["s1", "s3", "1ms"]],
+      "hosts": {
+        "h1": {},
+        "h2": {},
+        "h3": {},
+        "h4": {},
+        "h5": {},
+        "h6": {}
+      },
+      "switches": {
+        "s1": {
+          "entries": "s1-commands.txt"
+        },
+        "s2": {
+          "entries": "s2-commands.txt"
+        },
+        "s3": {
+          "entries": "s3-commands.txt"
+        }
+      },
+      "configs": {
+        "s1": "s1.p4",
+        "s2": "s2.p4",
+        "s3": "s3.p4"
+      }
+    }
+  }
+}
